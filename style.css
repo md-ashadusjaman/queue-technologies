@@ -43,7 +43,7 @@ p {
     width: 50%;
     margin: 5px 15px;
     padding: 10px;
-    
+
 }
 
 .link-button {
@@ -65,4 +65,27 @@ button {
 
 .flaxible-section {
     display: flex;
+}
+
+.box-shadow {
+    box-shadow: 5px 5px 30px rgb(236, 198, 74);
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    border-radius: 15px;
+    border-left: 10px solid;
+    border-image: linear-gradient(rgba(191, 255, 0, 0.895), cyan);
+    border-image-slice: 30%;
+
+}
+
+#service-last-part {
+    border-left: 10px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 10%;
+}
+
+footer {
+    text-align: center;
 }
